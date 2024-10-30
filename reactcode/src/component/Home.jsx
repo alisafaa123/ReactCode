@@ -61,6 +61,9 @@ const Home = () => {
                             <h4 id="amount">{items.length}</h4>
                         </div>
                     </div>
+                    <div class="adding">
+                         <button onClick={adding}>+ Add New</button>
+                   </div>
                 </div>
             </div>
         </div>
